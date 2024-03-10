@@ -17,10 +17,10 @@ static int GetMax(int[] arr)
 
 static double getAvg(int[] arr)
 {
-    int sumZmieniona = 0;
+    int sumMainZmienionaV2 = 0;
     for (int i = 0; i < arr.Length; i++)
     {
-        sum += arr[i];
+        sumMainZmienionaV2 += arr[i];
     }
-    return (float)sum / arr.Length;
+    return (float)sumMainZmienionaV2 / arr.Length;
 }
