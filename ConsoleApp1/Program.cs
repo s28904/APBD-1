@@ -17,7 +17,7 @@ static int GetMax(int[] arr)
 
 static double getAvg(int[] arr)
 {
-    int sum = 0;
+    int sumZmieniona = 0;
     for (int i = 0; i < arr.Length; i++)
     {
         sum += arr[i];
