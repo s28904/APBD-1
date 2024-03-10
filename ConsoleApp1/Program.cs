@@ -22,5 +22,5 @@ static double getAvg(int[] arr)
     {
         sumZmianaV2 += arr[i];
     }
-    return (float)sum / arr.Length;
+    return (float)sumZmianaV2 / arr.Length;
 }
